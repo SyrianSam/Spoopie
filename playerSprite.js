@@ -18,5 +18,4 @@ export default class PlayerSprite {
   }
 
   // Additional player-specific methods or properties
-  // ...
 }
