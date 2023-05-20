@@ -12,28 +12,20 @@
         health = 100, // object.health would make more sense for a more complicated game, but here it isn't very needed
         x = 0, y = 0 , dx = 0, dy = 0, dpy = 1, dpx = 1, difMod = 0.1;  
 
-
         var rightPressed = false;
         var leftPressed = false;
         var upPressed = false;
         var downPressed = false;
-       // coinX = Math.floor((Math.random() * 700) + 1);;
-       // coinY = Math.floor((Math.random() * 500) + 1);;
-        //poopX = Math.floor((Math.random() * 700) + 1);
-       // poopY = Math.floor((Math.random() * 500) + 1);
 
        // initialisation of poop and coin
           coinY = 200;
           coinX = 200;
           poopX = 500;
           poopY = 300;
-       // coinY = Math.floor((Math.random() * 500) + 1);
-
 
     function gameLoop () {
 
       window.requestAnimationFrame(gameLoop);
-
 
       //order indicates z-index here player appears over the coin and coin over the poop
        poop.render(poopX, poopY);
