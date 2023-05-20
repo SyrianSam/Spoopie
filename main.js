@@ -46,9 +46,7 @@ import PlayerSprite from './playerSprite.js';
     coin.render(coinX, coinY);
     player.render(x, y);
   }
-
-  // Rest of the code...
-
+  
   canvas = document.getElementById("coinAnimation");
   canvas.width = 800;
   canvas.height = 600;
